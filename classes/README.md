@@ -13,8 +13,12 @@ tema está en [`../sessions/`](../sessions/).
 
 ## Estado de los ejercicios
 
-Estos dos archivos son **enunciados sin resolver todavía** (solo el planteamiento y
-los `#include`), por eso no compilan aún:
+Todos los ejercicios de C y OpenMP compilan y ejecutan. Los dos ejercicios de
+OpenMP de la clase del 16-03 incluyen comentarios que responden a la pregunta
+planteada en su cabecera:
 
-- `2026-03-16-openmp-intro/openmp/omp_matrix_row_sum.c`
-- `2026-03-16-openmp-intro/openmp/omp_array_init_by_thread_range.c`
+- `omp_array_init_by_thread_range.c` — muestra qué posiciones quedan sin
+  inicializar cuando `N % NTHREADS != 0`.
+- `omp_matrix_row_sum.c` — compara la versión secuencial y la paralela; la suma
+  de filas está limitada por el ancho de banda de memoria, así que el speedup
+  queda por debajo del número de hilos.
