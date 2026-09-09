@@ -56,3 +56,19 @@ dkms.conf
 
 # vscode config
 .vscode/
+
+# Claude Code local settings
+.claude/settings.local.json
+
+# Local-only archive (old material we no longer use: raw datasets, etc.)
+_legacy/
+
+# Build output folders
+bin/
+build/
+output/
+
+# Datasets (kept out of git; see sessions/05-segmentacion-imagenes/README.md)
+*.ppm
+*.pgm
+*.pbm
