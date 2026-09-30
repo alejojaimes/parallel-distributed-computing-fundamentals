@@ -10,6 +10,9 @@ tema está en [`../sessions/`](../sessions/).
 | 2026-03-18 | [`2026-03-18-array-sum/`](2026-03-18-array-sum/) | Suma de un arreglo: `cb_array_sum.c` (secuencial) vs `omp_array_sum.c` (OpenMP) |
 | 2026-04-06 | [`2026-04-06-even-odd-split/`](2026-04-06-even-odd-split/) | Separar un arreglo aleatorio en pares e impares con aritmética de punteros |
 | 2026-09-07 | [`2026-09-07-calculator/`](2026-09-07-calculator/) | Calculadora básica con selección de operación por carácter |
+| 2026-09-09 | [`2026-09-09-pointers/`](2026-09-09-pointers/) | Cinco ejercicios básicos de punteros en C (`cb_pointers_01..05.c`) |
+| 2026-09-21 | [`2026-09-21-pointers-openmp/`](2026-09-21-pointers-openmp/) | Suma de un arreglo dinámico con aritmética de punteros: versión secuencial y paralela con OpenMP |
+| 2026-09-30 | [`2026-09-30-openmp-pointers-matrices/`](2026-09-30-openmp-pointers-matrices/) | Enunciado de 5 ejercicios de OpenMP con punteros y matrices (`ejercicios.md`) |
 
 ## Estado de los ejercicios
 
